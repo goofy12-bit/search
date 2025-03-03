@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск</title>
+    <style>
+
+    </style>
+</head>
+<body>
+ 
+ <h1><center>Желаете выполнить поиск?</center></h1>
+
+ <p></p>
+    
+ <center>  <button onclick="nuke()">искать</button><font id="tex">затролен</font><p></p> <font id="text">лолололо</font><button onclick="nuke()">назад</button></center>
+    
+ <p></p>
+
+
+<div id="box">
+<font size="500px"><h1>Ты затролен</h1></font> 
+ <font size="13px" style="text-align:right;"><h1>(⊙▃⊙) </h1></font> 
+ </div>
+
+
+   
+   
+<audio id="lobo" loop>
+  <source src="lobster.mp3" type="audio/mpeg">
+  lobster
+</audio>   
+   
+   
+   
+   
+   
+   
+   
+<script>
+    
+let tex = document.getElementById("tex");
+let text = document.getElementById("text");
+let box = document.getElementById("box");
+let lobo = document.getElementById("lobo")
+  
+  
+    box.style.display = "none";
+    tex.style.display = "none";
+    text.style.display = "none";
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    function nuke()   {
+    
+    lobo.play();
+    
+    setTimeout(sorr, 500)
+    
+    }
+    
+    
+
+
+function sorr(){
+    
+ box.style.display = "";
+    tex.style.display = "";
+    text.style.display = "";
+    fir();   
+    
+}
+
+
+    
+    
+function fir()   {
+document.body.style.background = "red";    
+document.body.style.color = "white";
+
+
+setTimeout(twise, 30);
+}
+
+
+
+
+
+
+
+function twise()   {
+    document.body.style.background = "blue";
+    document.body.style.color = "black";
+
+
+setTimeout(fir, 30);
+}
+    
+    
+    
+    
+
+
+
+
+
+    
+</script>
+    
+    
+</body>
+</html>
